@@ -2,4 +2,4 @@
 
 Ceci est un site internet pour faire des expériences.
 
-Ceci est la version "commentaire".
+Ceci est la version "commentaire" modifiée.
