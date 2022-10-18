@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta property="og:title" content="Le portfolio de Khalil Mnasri" />
+		<meta property="og:description" content="Bienvenue sur mon portfolio" />
+		<meta
+			property="og:image"
+			content="https://khalilmnasri.com/mon-image.png"
+		/>
+		<meta property="og:url" content="https://khalilmnasri.com" />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta property="og:site_name" content="Khalil Mnasri | Portfolio" />
+		<meta property="og:image:alt" content="Le texte alternatif de l'image" />
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="defaut.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" type="image/png" href="images/favicon.png" />
+		<title>Khalil Mnasri | Portfolio</title>
+	</head>
+	<body>
+		<section id="bienvenue">
+			<header>
+				<div id="flex-header" class="container">
+					<!-- ON UTILISE FLEXBOX POUR ALIGNER -->
+					<!-- ICI MON PRENOM ET MON NOM -->
+					<div id="logo">KHALIL MNASRI</div>
+					<nav>
+						<ul>
+							<li><a href="index.html">Accueil</a></li>
+							<li>
+								<a href="mailto:khalilmnassriqnet@gmail.com">Contactez-moi</a>
+							</li>
+						</ul>
+						<!-- ICI MON MENU -->
+					</nav>
+				</div>
+			</header>
+
+			<!-- ON UTILISE ENCORE FLEXBOX POUR ALIGNER -->
+			<div id="flex-presentation" class="container">
+				<div class="gauche-presentation">
+					<h1>Portfolio</h1>
+					<span
+						>Développeur Web maitrisant parfaitement les aspects de la création
+						d'un site internet efiicace, simple et intuitif. Bienvenue sur mon
+						portfolio.</span
+					>
+					<!-- On faite "span" por eviter le margin de paragraph "p" -->
+				</div>
+				<div class="droite-presentation">
+					<!-- IMAGE -->
+					<img src="images/khalil_portfolio.jpg" alt="khalil_mnasri" />
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<!-- LA PARTIE "CREATIONS" -->
+			<div class="container">
+				<h2>Créations</h2>
+				<p class="texte-presentation">Voici toutes mes créations.</p>
+				<!-- ON UTILISE UNE GRILLE POUR LES PROJETS -->
+				<div id="projet-grille">
+					<a href="projets/jump-start.html">
+						<div class="projet projet-a">
+							<h3>Jump Start</h3>
+						</div></a
+					>
+					<a href="#">
+						<div class="projet projet-b">
+							<h3>Rodeo Pump</h3>
+						</div></a
+					>
+					<a href="#">
+						<div class="projet projet-c">
+							<h3>Pac Man</h3>
+						</div></a
+					>
+					<a href="#">
+						<div class="projet projet-d">
+							<h3>Mega Pop</h3>
+						</div></a
+					>
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<!-- LA PARTIE "CONTACT" -->
+			<h2>Contact</h2>
+			<p class="texte-presentation">Alors, On travaille ensemble?</p>
+			<div>
+				<div id="contact">
+					<a class="button" href="mailto:khalilmnassriqnet@gmail.com"
+						>Envoyer un email</a
+					>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<div class="container">© Khalil Mnasri</div>
+		</footer>
+	</body>
+</html>
